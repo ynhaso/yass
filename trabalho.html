@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>instrumentos chuleta</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #4a6cf7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #2c3e50;
+      padding: 10px;
+      display: flex;
+      gap: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      background: white;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #4a6cf7;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo ao nosso site de instrumentos musicais</h1>
+  </header>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#conteudo">Conteúdo</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <main>
+    <section id="sobre">
+      <h2>Sobre o Projeto</h2>
+      <p>Este é um site simples que nós fizemos. Ele tem algumas coisas de HTML e CSS.</p>
+    </section>
+
+    <section id="conteudo">
+      <h2>Conteúdo</h2>
+      <ul>
+        <li>Instrumentos etc</li>
+        <li> o objetivo do site e etc</li>
+        <li>coisas interativas, como hyperlink que leva para algo relacionado a instrumentos</li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" /><br><br>
+
+        <label for="msg">Mensagem:</label><br>
+        <textarea id="msg" name="msg" rows="4"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    © 2025 - Trabalho Escolar
+  </footer>
+</body>
+</html>
